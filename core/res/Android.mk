@@ -37,6 +37,7 @@ LOCAL_EXPORT_PACKAGE_RESOURCES := true
 framework_GENERATED_SOURCE_DIR := $(call intermediates-dir-for,JAVA_LIBRARIES,framework,,COMMON)/src
 framework_RenderScript_STAMP_FILE := $(framework_GENERATED_SOURCE_DIR)/RenderScript.stamp
 #LOCAL_RESOURCE_DIR := $(framework_GENERATED_SOURCE_DIR)/renderscript/res $(LOCAL_PATH)/res
+LOCAL_FULL_LIBS_MANIFEST_FILES := $(LOCAL_PATH)/AndroidManifest_extra.xml
 
 include $(BUILD_PACKAGE)
 
