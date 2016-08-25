@@ -14,6 +14,7 @@ LOCAL_CERTIFICATE := platform
 LOCAL_PRIVILEGED_MODULE := true
 
 LOCAL_PROGUARD_FLAG_FILES := proguard.flags
+LOCAL_PROGUARD_FLAGS += -dontwarn
 
 LOCAL_RESOURCE_DIR := \
     frameworks/base/packages/Keyguard/res \
