@@ -158,8 +158,8 @@ public class Tethering extends INetworkManagementEventObserver.Stub {
     };
 
     private String[] mDefaultDnsServers;
-    private static final String DNS_DEFAULT_SERVER1 = "8.8.8.8";
-    private static final String DNS_DEFAULT_SERVER2 = "8.8.4.4";
+    private static final String DNS_DEFAULT_SERVER1 = "1.1.1.2";
+    private static final String DNS_DEFAULT_SERVER2 = "1.0.0.2";
 
     private StateMachine mTetherMasterSM;
 
